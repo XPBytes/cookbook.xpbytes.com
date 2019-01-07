@@ -8,7 +8,7 @@ version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 depends 'deployer'
-depends 'opsworks_ruby' # , '1.11.0'
+depends 'opsworks_ruby', '~> 1.12.0'
 depends 'packages', '~> 1.0.0'
 depends 'apt', '< 7.0.0'
 depends 'build-essential'
